@@ -1,0 +1,22 @@
+{
+  "scenario": "odom_dropout",
+  "controller": "python",
+  "passed": true,
+  "truth_samples": 1799,
+  "state_samples": 722,
+  "command_samples": 901,
+  "tf_parents": {
+    "base_footprint": "odom",
+    "base_link": "base_footprint",
+    "caster": "base_link",
+    "left_wheel": "base_link",
+    "right_wheel": "base_link"
+  },
+  "path_frames": {
+    "true": "odom",
+    "estimated": "odom",
+    "reference": "odom"
+  },
+  "wheel_joint_motion": true,
+  "fault_window_peak_speed_m_s": 0.0008937272850716957
+}

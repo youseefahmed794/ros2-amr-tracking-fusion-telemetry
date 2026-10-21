@@ -1,0 +1,47 @@
+# ROS and local build products
+build/
+install/
+log/
+# Python / tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+.venv/
+venv/
+env/
+.tox/
+*.egg-info/
+# Credentials and private local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.codex/
+.agents/
+.netrc
+.pypirc
+*credentials*
+*secrets*
+*.pem
+*.key
+*.p12
+# Editors, temporary files, local experiment output
+.vscode/
+.idea/
+*~
+*.swp
+*.tmp
+.DS_Store
+outputs/
+publication/
+*.bag
+*.db3
+*.mcap
+*.mp4
+*.zip
+*.tar*

@@ -1,0 +1,8 @@
+{
+  "scenario": "command_dropout",
+  "passed": true,
+  "truth_samples": 1764,
+  "state_samples": 880,
+  "command_samples": 1840,
+  "fault_window_peak_speed_m_s": 5.628619728374728e-07
+}

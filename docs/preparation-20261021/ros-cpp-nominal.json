@@ -1,0 +1,21 @@
+{
+  "scenario": "nominal",
+  "controller": "cpp",
+  "passed": true,
+  "truth_samples": 601,
+  "state_samples": 297,
+  "command_samples": 645,
+  "tf_parents": {
+    "base_link": "base_footprint",
+    "caster": "base_link",
+    "left_wheel": "base_link",
+    "right_wheel": "base_link",
+    "base_footprint": "odom"
+  },
+  "path_frames": {
+    "true": "odom",
+    "estimated": "odom",
+    "reference": "odom"
+  },
+  "wheel_joint_motion": true
+}

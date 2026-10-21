@@ -1,0 +1,18 @@
+[
+  {
+    "duration_sec": 240,
+    "seed": 42,
+    "imu_bias_rad_s": 0.005,
+    "final_heading_error_rad": -1.142273246898749,
+    "last_30s_true_tracking_rmse_m": 2.3157197066625956,
+    "last_30s_estimated_tracking_rmse_m": 0.022761983794504784
+  },
+  {
+    "duration_sec": 240,
+    "seed": 42,
+    "imu_bias_rad_s": 0.0,
+    "final_heading_error_rad": 0.011617015547641607,
+    "last_30s_true_tracking_rmse_m": 0.14389715994969446,
+    "last_30s_estimated_tracking_rmse_m": 0.022662050759692236
+  }
+]

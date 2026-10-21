@@ -1,0 +1,57 @@
+name: ROS2 build and regression tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  jazzy:
+    runs-on: ubuntu-24.04
+    container: ros:jazzy-ros-base
+    env:
+      ROS_DOMAIN_ID: '175'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: ws/src/ros2_amr_nmpc_telemetry
+      - name: Install declared and analysis dependencies
+        shell: bash
+        run: |
+          apt-get update
+          apt-get install -y python3-colcon-common-extensions python3-rosdep python3-matplotlib
+          if [ ! -f /etc/ros/rosdep/sources.list.d/20-default.list ]; then rosdep init; fi
+          rosdep update
+          rosdep install --from-paths ws/src --ignore-src -r -y --rosdistro jazzy
+      - name: Build
+        shell: bash
+        working-directory: ws
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+      - name: Test
+        shell: bash
+        working-directory: ws
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          source install/setup.bash
+          colcon test --return-code-on-test-failure
+          colcon test-result --verbose
+          src/ros2_amr_nmpc_telemetry/scripts/validate_runtime.sh /tmp/runtime-validation
+      - name: Reproduce paired experiments
+        shell: bash
+        working-directory: ws/src/ros2_amr_nmpc_telemetry
+        run: python3 scripts/run_experiments.py --output-dir /tmp/experiments
+      - name: Validate paired multi-minute gyro bias behavior
+        shell: bash
+        working-directory: ws/src/ros2_amr_nmpc_telemetry
+        run: python3 scripts/validate_gyro_bias.py --output /tmp/gyro-bias-validation
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jazzy-validation
+          path: |
+            ws/build/*/test_results
+            ws/log
+            /tmp/experiments
+            /tmp/runtime-validation
+            /tmp/gyro-bias-validation

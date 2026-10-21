@@ -1,0 +1,31 @@
+{
+  "controller": "cpp",
+  "requested_hz": 100.0,
+  "executor_threads": 2,
+  "duration_sec": 20.0,
+  "warmup_sec": 3,
+  "openblas_num_threads": "1",
+  "condition": "50Hz wheel+IMU -> separate EKF process; no WebSocket clients; no plant",
+  "callback_samples": 2000,
+  "callback_hz": 99.99985597819641,
+  "cmd_vel_hz": 100.01041040831554,
+  "ekf_hz": 50.001468386465255,
+  "callback_duration_ms": {
+    "p50": 0.17192,
+    "p95": 0.3732829999999999,
+    "p99": 0.47824098,
+    "p100": 0.68616
+  },
+  "interval_ms": {
+    "p50": 9.999395999999999,
+    "p95": 10.106529199999999,
+    "p99": 10.16480694,
+    "p100": 11.76708
+  },
+  "absolute_interval_jitter_ms": {
+    "p50": 0.028541999999999845,
+    "p95": 0.1379412999999994,
+    "p99": 0.20111767999999924,
+    "p100": 1.76708
+  }
+}

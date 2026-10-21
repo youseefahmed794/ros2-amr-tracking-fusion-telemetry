@@ -1,0 +1,63 @@
+{
+  "controller": "cpp",
+  "passed": true,
+  "payload_delivery": true,
+  "disconnect_reconnect": true,
+  "sensor_stop": true,
+  "sensor_recovery_payload": true,
+  "post_fault_reconnect": true,
+  "observed_cmd_vel_hz": 46.8673727560543,
+  "first_payload": {
+    "timestamp_sec": 4.550251,
+    "stamp_sec": 1792597893.150501,
+    "dt_ms": 10.00163,
+    "x": 0.0,
+    "y": 0.0,
+    "x_ref": 2.722839,
+    "y_ref": 1.143069,
+    "v_cmd": 1.5,
+    "omega_cmd": 0.365832,
+    "tracking_error_m": 2.953042
+  },
+  "reconnected_payload": {
+    "timestamp_sec": 15.770234,
+    "stamp_sec": 1792597904.370483,
+    "dt_ms": 10.003075,
+    "x": 0.0,
+    "y": 0.0,
+    "x_ref": -2.154086,
+    "y_ref": 1.499273,
+    "v_cmd": -0.499877,
+    "omega_cmd": 2.0,
+    "tracking_error_m": 2.624482
+  },
+  "stopped_payload": {
+    "status": "stopped",
+    "v_cmd": 0.0,
+    "omega_cmd": 0.0
+  },
+  "recovered_payload": {
+    "timestamp_sec": 18.330261,
+    "stamp_sec": 1792597906.93051,
+    "dt_ms": 10.063436,
+    "x": 0.0,
+    "y": 0.0,
+    "x_ref": -2.974754,
+    "y_ref": 0.38511,
+    "v_cmd": -0.099911,
+    "omega_cmd": -0.391667,
+    "tracking_error_m": 2.999579
+  },
+  "final_payload": {
+    "timestamp_sec": 29.840133,
+    "stamp_sec": 1792597918.440382,
+    "dt_ms": 9.90812,
+    "x": 0.0,
+    "y": 0.0,
+    "x_ref": 2.770202,
+    "y_ref": 1.063307,
+    "v_cmd": 0.074708,
+    "omega_cmd": 0.271591,
+    "tracking_error_m": 2.967262
+  }
+}

@@ -1,0 +1,2152 @@
+[
+  {
+    "profile": "nominal",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "nominal",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "nominal",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "nominal",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "nominal",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "nominal",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "nominal",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "nominal",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "nominal",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "nominal",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "load",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "load",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "load",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "load",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "load",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "load",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "load",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "load",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "load",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "load",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_transient",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_transient",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_transient",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_transient",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_transient",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_transient",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_transient",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_transient",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_transient",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_transient",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_sustained",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_sustained",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_sustained",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_sustained",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_sustained",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_sustained",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_sustained",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_sustained",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_sustained",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "slip_sustained",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "imu_dropout",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004045619255392661,
+        "settled_angular_speed_rad_s": 0.00043150157561248827,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00024932297574791135,
+        "settled_angular_speed_rad_s": 0.00035880922653256503,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "imu_dropout",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00040893422122295934,
+        "settled_angular_speed_rad_s": 0.0004279826158268664,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002673195348167631,
+        "settled_angular_speed_rad_s": 0.00039656067838367645,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "imu_dropout",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00040848447322566143,
+        "settled_angular_speed_rad_s": 0.0004248663368600003,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00025121319625026915,
+        "settled_angular_speed_rad_s": 0.000363017273346683,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "imu_dropout",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004163698075676953,
+        "settled_angular_speed_rad_s": 0.0004192527248140902,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00025578981348886506,
+        "settled_angular_speed_rad_s": 0.0003782342322082499,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "imu_dropout",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004146918462408238,
+        "settled_angular_speed_rad_s": 0.0004330793146634275,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002493064165298066,
+        "settled_angular_speed_rad_s": 0.0003611878847363474,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "imu_dropout",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004186653036263312,
+        "settled_angular_speed_rad_s": 0.0004279518213964122,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00027490974507397864,
+        "settled_angular_speed_rad_s": 0.0004012429744563155,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "imu_dropout",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00040139892296951307,
+        "settled_angular_speed_rad_s": 0.00041403087159820763,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002521434301390027,
+        "settled_angular_speed_rad_s": 0.0003600596263562379,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "imu_dropout",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00040567756864866533,
+        "settled_angular_speed_rad_s": 0.0004063673264585941,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00026644482406630707,
+        "settled_angular_speed_rad_s": 0.00038966152611944924,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "imu_dropout",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00041205749553265735,
+        "settled_angular_speed_rad_s": 0.0004279818106102241,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002510156540907169,
+        "settled_angular_speed_rad_s": 0.0003613460066070518,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "imu_dropout",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004118853430880878,
+        "settled_angular_speed_rad_s": 0.0004347942809310984,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.000269405095451022,
+        "settled_angular_speed_rad_s": 0.00039904301725888916,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_dropout",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004931274918187823,
+        "settled_angular_speed_rad_s": 0.0005088722173107496,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00027348186219198524,
+        "settled_angular_speed_rad_s": 0.0003923031286117909,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_dropout",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004878841503973457,
+        "settled_angular_speed_rad_s": 0.0005023588013382112,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002765329449622325,
+        "settled_angular_speed_rad_s": 0.0003965294425523959,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_dropout",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004936229545654037,
+        "settled_angular_speed_rad_s": 0.0005073421615739277,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002816153537975828,
+        "settled_angular_speed_rad_s": 0.0004015917651288412,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_dropout",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004935175757322371,
+        "settled_angular_speed_rad_s": 0.0004989440696737195,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00026943345514698414,
+        "settled_angular_speed_rad_s": 0.00038311966780153685,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_dropout",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0005215284727718465,
+        "settled_angular_speed_rad_s": 0.0005339313981714372,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00027452886554810217,
+        "settled_angular_speed_rad_s": 0.0003944351499288289,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_dropout",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0005174108000561191,
+        "settled_angular_speed_rad_s": 0.0005260911126081568,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00028347264318283934,
+        "settled_angular_speed_rad_s": 0.0003974285971968897,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_dropout",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004710584412597576,
+        "settled_angular_speed_rad_s": 0.0004852755613825061,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00027662053218435495,
+        "settled_angular_speed_rad_s": 0.0003967591298774139,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_dropout",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00046775984366615874,
+        "settled_angular_speed_rad_s": 0.00047302095298782455,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002742014134090647,
+        "settled_angular_speed_rad_s": 0.00039140930939262524,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_dropout",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0005159876534674569,
+        "settled_angular_speed_rad_s": 0.0005235267640111974,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002808110949377196,
+        "settled_angular_speed_rad_s": 0.0004004471595824545,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_dropout",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004968582708382972,
+        "settled_angular_speed_rad_s": 0.0005188922333709471,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002801170155856794,
+        "settled_angular_speed_rad_s": 0.0003964596610324374,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_delay",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004931274918187823,
+        "settled_angular_speed_rad_s": 0.0005088722173107496,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00027348186219198524,
+        "settled_angular_speed_rad_s": 0.0003923031286117909,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_delay",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004878841503973457,
+        "settled_angular_speed_rad_s": 0.0005023588013382112,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002765329449622325,
+        "settled_angular_speed_rad_s": 0.0003965294425523959,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_delay",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004936229545654037,
+        "settled_angular_speed_rad_s": 0.0005073421615739277,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002816153537975828,
+        "settled_angular_speed_rad_s": 0.0004015917651288412,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_delay",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004935175757322371,
+        "settled_angular_speed_rad_s": 0.0004989440696737195,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00026943345514698414,
+        "settled_angular_speed_rad_s": 0.00038311966780153685,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_delay",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0005215284727718465,
+        "settled_angular_speed_rad_s": 0.0005339313981714372,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00027452886554810217,
+        "settled_angular_speed_rad_s": 0.0003944351499288289,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_delay",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0005174108000561191,
+        "settled_angular_speed_rad_s": 0.0005260911126081568,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00028347264318283934,
+        "settled_angular_speed_rad_s": 0.0003974285971968897,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_delay",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004710584412597576,
+        "settled_angular_speed_rad_s": 0.0004852755613825061,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00027662053218435495,
+        "settled_angular_speed_rad_s": 0.0003967591298774139,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_delay",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00046775984366615874,
+        "settled_angular_speed_rad_s": 0.00047302095298782455,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002742014134090647,
+        "settled_angular_speed_rad_s": 0.00039140930939262524,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_delay",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0005159876534674569,
+        "settled_angular_speed_rad_s": 0.0005235267640111974,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002808110949377196,
+        "settled_angular_speed_rad_s": 0.0004004471595824545,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "odom_delay",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004968582708382972,
+        "settled_angular_speed_rad_s": 0.0005188922333709471,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002801170155856794,
+        "settled_angular_speed_rad_s": 0.0003964596610324374,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "nonfinite",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004931274918187823,
+        "settled_angular_speed_rad_s": 0.0005088722173107496,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00027348186219198524,
+        "settled_angular_speed_rad_s": 0.0003923031286117909,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "nonfinite",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004878841503973457,
+        "settled_angular_speed_rad_s": 0.0005023588013382112,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002765329449622325,
+        "settled_angular_speed_rad_s": 0.0003965294425523959,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "nonfinite",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004936229545654037,
+        "settled_angular_speed_rad_s": 0.0005073421615739277,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002816153537975828,
+        "settled_angular_speed_rad_s": 0.0004015917651288412,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "nonfinite",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004935175757322371,
+        "settled_angular_speed_rad_s": 0.0004989440696737195,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00026943345514698414,
+        "settled_angular_speed_rad_s": 0.00038311966780153685,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "nonfinite",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0005215284727718465,
+        "settled_angular_speed_rad_s": 0.0005339313981714372,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00027452886554810217,
+        "settled_angular_speed_rad_s": 0.0003944351499288289,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "nonfinite",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0005174108000561191,
+        "settled_angular_speed_rad_s": 0.0005260911126081568,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00028347264318283934,
+        "settled_angular_speed_rad_s": 0.0003974285971968897,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "nonfinite",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004710584412597576,
+        "settled_angular_speed_rad_s": 0.0004852755613825061,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00027662053218435495,
+        "settled_angular_speed_rad_s": 0.0003967591298774139,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "nonfinite",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.00046775984366615874,
+        "settled_angular_speed_rad_s": 0.00047302095298782455,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002742014134090647,
+        "settled_angular_speed_rad_s": 0.00039140930939262524,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "nonfinite",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0005159876534674569,
+        "settled_angular_speed_rad_s": 0.0005235267640111974,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002808110949377196,
+        "settled_angular_speed_rad_s": 0.0004004471595824545,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "nonfinite",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0004968582708382972,
+        "settled_angular_speed_rad_s": 0.0005188922333709471,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.9699999999999989,
+        "settled_linear_speed_m_s": 0.0002801170155856794,
+        "settled_angular_speed_rad_s": 0.0003964596610324374,
+        "resumed": true,
+        "zero_commands": true,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "command_dropout",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.21000000000000085,
+        "settled_linear_speed_m_s": 1.8891524986711448e-07,
+        "settled_angular_speed_rad_s": 2.6369684603646043e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.21000000000000796,
+        "settled_linear_speed_m_s": 1.6328125752297124e-07,
+        "settled_angular_speed_rad_s": 2.7231736640721344e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "command_dropout",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.21000000000000085,
+        "settled_linear_speed_m_s": 1.8571142070762207e-07,
+        "settled_angular_speed_rad_s": 2.618009343222217e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.21000000000000796,
+        "settled_linear_speed_m_s": 1.6509247597669377e-07,
+        "settled_angular_speed_rad_s": 2.7645811317672814e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "command_dropout",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.21000000000000085,
+        "settled_linear_speed_m_s": 1.8840543344341884e-07,
+        "settled_angular_speed_rad_s": 2.620138586980597e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.21000000000000796,
+        "settled_linear_speed_m_s": 1.6371442282400398e-07,
+        "settled_angular_speed_rad_s": 2.726976289265057e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "command_dropout",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.21000000000000085,
+        "settled_linear_speed_m_s": 1.91703471425557e-07,
+        "settled_angular_speed_rad_s": 2.6014871483127745e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.21000000000000796,
+        "settled_linear_speed_m_s": 1.5499694009361574e-07,
+        "settled_angular_speed_rad_s": 2.568151063052128e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "command_dropout",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.21000000000000085,
+        "settled_linear_speed_m_s": 1.9221015950699384e-07,
+        "settled_angular_speed_rad_s": 2.6669180626130225e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.21000000000000796,
+        "settled_linear_speed_m_s": 1.598709546190077e-07,
+        "settled_angular_speed_rad_s": 2.68531097649428e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "command_dropout",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.21000000000000085,
+        "settled_linear_speed_m_s": 1.9081365406521486e-07,
+        "settled_angular_speed_rad_s": 2.6372757608614054e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.21000000000000796,
+        "settled_linear_speed_m_s": 1.691341806521389e-07,
+        "settled_angular_speed_rad_s": 2.839428999627231e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "command_dropout",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.21000000000000085,
+        "settled_linear_speed_m_s": 1.8422981549957767e-07,
+        "settled_angular_speed_rad_s": 2.576379921794525e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.21000000000000796,
+        "settled_linear_speed_m_s": 1.615870614349025e-07,
+        "settled_angular_speed_rad_s": 2.7073806620146353e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "command_dropout",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.21000000000000085,
+        "settled_linear_speed_m_s": 1.856730771626984e-07,
+        "settled_angular_speed_rad_s": 2.557123660111313e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.21000000000000796,
+        "settled_linear_speed_m_s": 1.616898773654546e-07,
+        "settled_angular_speed_rad_s": 2.709321248710421e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "command_dropout",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.21000000000000085,
+        "settled_linear_speed_m_s": 1.9266955986031186e-07,
+        "settled_angular_speed_rad_s": 2.6825683358016706e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.21000000000000796,
+        "settled_linear_speed_m_s": 1.6207384899280158e-07,
+        "settled_angular_speed_rad_s": 2.7152747073843155e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "command_dropout",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [
+      {
+        "start": 60,
+        "end": 64,
+        "stop_delay_sec": 0.21000000000000085,
+        "settled_linear_speed_m_s": 1.9319570761365e-07,
+        "settled_angular_speed_rad_s": 2.6491633875111e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      },
+      {
+        "start": 180,
+        "end": 184,
+        "stop_delay_sec": 0.21000000000000796,
+        "settled_linear_speed_m_s": 1.6293547748524893e-07,
+        "settled_angular_speed_rad_s": 2.718693812291251e-07,
+        "resumed": true,
+        "zero_commands": null,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "profile": "negative_bias",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "negative_bias",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "negative_bias",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "negative_bias",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "negative_bias",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "negative_bias",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "negative_bias",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "negative_bias",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "negative_bias",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "negative_bias",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "positive_bias",
+    "seed": 11,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "positive_bias",
+    "seed": 11,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "positive_bias",
+    "seed": 23,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "positive_bias",
+    "seed": 23,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "positive_bias",
+    "seed": 42,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "positive_bias",
+    "seed": 42,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "positive_bias",
+    "seed": 71,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "positive_bias",
+    "seed": 71,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "positive_bias",
+    "seed": 101,
+    "estimate_gyro_bias": false,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  },
+  {
+    "profile": "positive_bias",
+    "seed": 101,
+    "estimate_gyro_bias": true,
+    "finite": true,
+    "bounded_commands": true,
+    "nonnegative_bias_variance": true,
+    "fault_windows": [],
+    "passed": true
+  }
+]

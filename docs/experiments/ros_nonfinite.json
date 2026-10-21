@@ -1,0 +1,8 @@
+{
+  "scenario": "nonfinite",
+  "passed": true,
+  "truth_samples": 1772,
+  "state_samples": 710,
+  "command_samples": 1851,
+  "fault_window_peak_speed_m_s": 0.0009246303956688929
+}

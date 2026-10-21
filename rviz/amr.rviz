@@ -1,0 +1,48 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Fixed Frame: odom
+    Background Color: 245; 247; 250
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Cell Size: 1
+    - Class: rviz_default_plugins/RobotModel
+      Name: Robot
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+        Durability Policy: Transient Local
+    - Class: rviz_default_plugins/Path
+      Name: Reference
+      Enabled: true
+      Color: 70; 70; 70
+      Topic:
+        Value: /simulation/reference_path
+    - Class: rviz_default_plugins/Path
+      Name: Ground truth
+      Enabled: true
+      Color: 0; 140; 170
+      Topic:
+        Value: /simulation/true_path
+    - Class: rviz_default_plugins/Path
+      Name: EKF
+      Enabled: true
+      Color: 220; 130; 20
+      Topic:
+        Value: /simulation/estimated_path
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 12
+      Pitch: 1.1
+      Yaw: 0.4
+      Focal Point: {X: 0, Y: 0, Z: 0}
+Window Geometry:
+  Width: 1280
+  Height: 800

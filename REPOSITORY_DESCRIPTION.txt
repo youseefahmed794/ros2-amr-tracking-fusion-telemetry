@@ -1,0 +1,1 @@
+ROS 2 differential-drive trajectory tracking with Lyapunov-style integral control, wheel/IMU fusion, simulation experiments, and WebSocket telemetry.

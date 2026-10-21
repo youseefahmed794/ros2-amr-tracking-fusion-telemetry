@@ -1,0 +1,7 @@
+{
+  "scenario": "nominal",
+  "passed": true,
+  "truth_samples": 332,
+  "state_samples": 297,
+  "command_samples": 646
+}

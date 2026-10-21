@@ -1,0 +1,163 @@
+{
+  "trials": 110,
+  "duration_sec": 240,
+  "dt_sec": 0.01,
+  "sensor_rate_hz": 50,
+  "seeds": [
+    11,
+    23,
+    42,
+    71,
+    101
+  ],
+  "profiles": {
+    "nominal": [
+      "nominal",
+      [],
+      0.005
+    ],
+    "load": [
+      "load",
+      [
+        [
+          12,
+          16
+        ]
+      ],
+      0.005
+    ],
+    "slip_transient": [
+      "slip",
+      [
+        [
+          12,
+          16
+        ]
+      ],
+      0.005
+    ],
+    "slip_sustained": [
+      "slip",
+      [
+        [
+          60,
+          240
+        ]
+      ],
+      0.005
+    ],
+    "imu_dropout": [
+      "imu_dropout",
+      [
+        [
+          60,
+          64
+        ],
+        [
+          180,
+          184
+        ]
+      ],
+      0.005
+    ],
+    "odom_dropout": [
+      "odom_dropout",
+      [
+        [
+          60,
+          64
+        ],
+        [
+          180,
+          184
+        ]
+      ],
+      0.005
+    ],
+    "odom_delay": [
+      "odom_delay",
+      [
+        [
+          60,
+          64
+        ],
+        [
+          180,
+          184
+        ]
+      ],
+      0.005
+    ],
+    "nonfinite": [
+      "nonfinite",
+      [
+        [
+          60,
+          64
+        ],
+        [
+          180,
+          184
+        ]
+      ],
+      0.005
+    ],
+    "command_dropout": [
+      "command_dropout",
+      [
+        [
+          60,
+          64
+        ],
+        [
+          180,
+          184
+        ]
+      ],
+      0.005
+    ],
+    "negative_bias": [
+      "nominal",
+      [],
+      -0.02
+    ],
+    "positive_bias": [
+      "nominal",
+      [],
+      0.03
+    ]
+  },
+  "trace_columns": [
+    "t",
+    "x",
+    "y",
+    "yaw",
+    "estimated_x",
+    "estimated_y",
+    "estimated_yaw",
+    "reference_x",
+    "reference_y",
+    "v_cmd",
+    "w_cmd",
+    "v_actual",
+    "w_actual",
+    "controller_stopped",
+    "base_watchdog",
+    "gyro_bias_rad_s",
+    "gyro_bias_variance"
+  ],
+  "controller": "lyapunov_integral; identical gains/limits",
+  "baseline": "bias state fixed at zero; numerically checked against archived five-state EKF",
+  "estimator": "six-state consider-pose EKF, gyro=w+b, wheel yaw=w, q_bias=1e-8, P_bias_initial=0.01",
+  "pair_design": "same seeds, sensor draw counts, initial state, noise/bias and plant; trajectory differs under feedback",
+  "observability": "wheel yaw must be unbiased and non-slipping; absolute pose/yaw unobservable; sustained slip can corrupt bias",
+  "limits": "Offline model, not runtime timing, Gazebo or hardware. Covariance is conditional on model assumptions.",
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "wall_time_sec": 470.8096115059998,
+  "sources": {
+    "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/scripts/validate_gyro_bias.py": "0c6d79013c5cd09ae50652781622d2f121d8fe3b23d5e30ec9ef68967736e34d",
+    "ros2_amr_nmpc_telemetry/core.py": "77841174775fd7eb91d571fd3331b337db865f6a7af013dacaf9d92dc1a17cd9",
+    "ros2_amr_nmpc_telemetry/simulation.py": "084e23127e5c465df4476237398af10c9eba7938632032b8985971d54d2dc0e3"
+  }
+}

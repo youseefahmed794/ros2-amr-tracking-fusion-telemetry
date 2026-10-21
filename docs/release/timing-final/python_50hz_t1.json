@@ -1,0 +1,31 @@
+{
+  "controller": "python",
+  "requested_hz": 50.0,
+  "executor_threads": 1,
+  "duration_sec": 20.0,
+  "warmup_sec": 3,
+  "openblas_num_threads": "1",
+  "condition": "50Hz wheel+IMU -> separate EKF process; no WebSocket clients; no plant",
+  "callback_samples": 1000,
+  "callback_hz": 49.999234433643934,
+  "cmd_vel_hz": 49.997748044373594,
+  "ekf_hz": 50.00091207869951,
+  "callback_duration_ms": {
+    "p50": 0.5463049999999999,
+    "p95": 0.949761,
+    "p99": 1.0934350599999998,
+    "p100": 1.408609
+  },
+  "interval_ms": {
+    "p50": 20.001117,
+    "p95": 20.315138599999997,
+    "p99": 20.43056218,
+    "p100": 20.552832
+  },
+  "absolute_interval_jitter_ms": {
+    "p50": 0.06903299999999746,
+    "p95": 0.38014900000000224,
+    "p99": 0.4959746599999976,
+    "p100": 0.7402390000000025
+  }
+}

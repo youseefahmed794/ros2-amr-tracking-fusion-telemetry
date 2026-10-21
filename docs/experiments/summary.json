@@ -1,0 +1,218 @@
+[
+  {
+    "scenario": "nominal",
+    "controller": "lyapunov_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.22261012192777394,
+    "rmse_std_m": 0.009005945217184171,
+    "rmse_min_m": 0.21226094758611455,
+    "rmse_max_m": 0.23585824643053252
+  },
+  {
+    "scenario": "nominal",
+    "controller": "lyapunov_no_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.2202387100207968,
+    "rmse_std_m": 0.008939067076970245,
+    "rmse_min_m": 0.20963709794592603,
+    "rmse_max_m": 0.23349984146513822
+  },
+  {
+    "scenario": "nominal",
+    "controller": "pure_pursuit",
+    "trials": 5,
+    "rmse_mean_m": 0.4042944373764851,
+    "rmse_std_m": 0.011848143279825201,
+    "rmse_min_m": 0.3949120928571614,
+    "rmse_max_m": 0.4241445338138873
+  },
+  {
+    "scenario": "load",
+    "controller": "lyapunov_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.20938810527834456,
+    "rmse_std_m": 0.009263549369499633,
+    "rmse_min_m": 0.19780398631382345,
+    "rmse_max_m": 0.22327562847083154
+  },
+  {
+    "scenario": "load",
+    "controller": "lyapunov_no_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.2231734653060816,
+    "rmse_std_m": 0.009343146065352217,
+    "rmse_min_m": 0.2112876977142844,
+    "rmse_max_m": 0.23721480040081097
+  },
+  {
+    "scenario": "load",
+    "controller": "pure_pursuit",
+    "trials": 5,
+    "rmse_mean_m": 0.866996525089497,
+    "rmse_std_m": 0.007817536435702455,
+    "rmse_min_m": 0.8605483196365585,
+    "rmse_max_m": 0.8797628645810852
+  },
+  {
+    "scenario": "slip",
+    "controller": "lyapunov_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.8069735810013647,
+    "rmse_std_m": 0.008305001813107428,
+    "rmse_min_m": 0.797541556487549,
+    "rmse_max_m": 0.8190706708674694
+  },
+  {
+    "scenario": "slip",
+    "controller": "lyapunov_no_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.8093665043377877,
+    "rmse_std_m": 0.008179640430904318,
+    "rmse_min_m": 0.79999662841847,
+    "rmse_max_m": 0.8214297606442515
+  },
+  {
+    "scenario": "slip",
+    "controller": "pure_pursuit",
+    "trials": 5,
+    "rmse_mean_m": 0.8480962780642137,
+    "rmse_std_m": 0.00590278018609123,
+    "rmse_min_m": 0.8400923135449365,
+    "rmse_max_m": 0.855928730203083
+  },
+  {
+    "scenario": "imu_dropout",
+    "controller": "lyapunov_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.8560696064015211,
+    "rmse_std_m": 0.004455292358868879,
+    "rmse_min_m": 0.8501802589035471,
+    "rmse_max_m": 0.8596205442084113
+  },
+  {
+    "scenario": "imu_dropout",
+    "controller": "lyapunov_no_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.8680866120793261,
+    "rmse_std_m": 0.004562999240471666,
+    "rmse_min_m": 0.8619804250004834,
+    "rmse_max_m": 0.872185783378955
+  },
+  {
+    "scenario": "imu_dropout",
+    "controller": "pure_pursuit",
+    "trials": 5,
+    "rmse_mean_m": 1.4318408660335193,
+    "rmse_std_m": 0.0045194168212297015,
+    "rmse_min_m": 1.426922962674016,
+    "rmse_max_m": 1.4370235256401598
+  },
+  {
+    "scenario": "odom_dropout",
+    "controller": "lyapunov_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.9254892676927751,
+    "rmse_std_m": 0.005453440297190941,
+    "rmse_min_m": 0.9187469240417988,
+    "rmse_max_m": 0.9306451126468399
+  },
+  {
+    "scenario": "odom_dropout",
+    "controller": "lyapunov_no_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.9371128729878844,
+    "rmse_std_m": 0.005221499906669468,
+    "rmse_min_m": 0.9303076000805399,
+    "rmse_max_m": 0.9420432562302441
+  },
+  {
+    "scenario": "odom_dropout",
+    "controller": "pure_pursuit",
+    "trials": 5,
+    "rmse_mean_m": 1.4626918746158628,
+    "rmse_std_m": 0.004454390902870104,
+    "rmse_min_m": 1.456184934647418,
+    "rmse_max_m": 1.4683186505720078
+  },
+  {
+    "scenario": "odom_delay",
+    "controller": "lyapunov_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.9254892676927751,
+    "rmse_std_m": 0.005453440297190941,
+    "rmse_min_m": 0.9187469240417988,
+    "rmse_max_m": 0.9306451126468399
+  },
+  {
+    "scenario": "odom_delay",
+    "controller": "lyapunov_no_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.9371128729878844,
+    "rmse_std_m": 0.005221499906669468,
+    "rmse_min_m": 0.9303076000805399,
+    "rmse_max_m": 0.9420432562302441
+  },
+  {
+    "scenario": "odom_delay",
+    "controller": "pure_pursuit",
+    "trials": 5,
+    "rmse_mean_m": 1.4626918746158628,
+    "rmse_std_m": 0.004454390902870104,
+    "rmse_min_m": 1.456184934647418,
+    "rmse_max_m": 1.4683186505720078
+  },
+  {
+    "scenario": "nonfinite",
+    "controller": "lyapunov_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.9254892676927751,
+    "rmse_std_m": 0.005453440297190941,
+    "rmse_min_m": 0.9187469240417988,
+    "rmse_max_m": 0.9306451126468399
+  },
+  {
+    "scenario": "nonfinite",
+    "controller": "lyapunov_no_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.9371128729878844,
+    "rmse_std_m": 0.005221499906669468,
+    "rmse_min_m": 0.9303076000805399,
+    "rmse_max_m": 0.9420432562302441
+  },
+  {
+    "scenario": "nonfinite",
+    "controller": "pure_pursuit",
+    "trials": 5,
+    "rmse_mean_m": 1.4626918746158628,
+    "rmse_std_m": 0.004454390902870104,
+    "rmse_min_m": 1.456184934647418,
+    "rmse_max_m": 1.4683186505720078
+  },
+  {
+    "scenario": "command_dropout",
+    "controller": "lyapunov_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.8419107517813418,
+    "rmse_std_m": 0.005633318866166618,
+    "rmse_min_m": 0.8371653605441296,
+    "rmse_max_m": 0.8488956009961389
+  },
+  {
+    "scenario": "command_dropout",
+    "controller": "lyapunov_no_integral",
+    "trials": 5,
+    "rmse_mean_m": 0.851409586936135,
+    "rmse_std_m": 0.005385869397020732,
+    "rmse_min_m": 0.8468136622624827,
+    "rmse_max_m": 0.8581738512065314
+  },
+  {
+    "scenario": "command_dropout",
+    "controller": "pure_pursuit",
+    "trials": 5,
+    "rmse_mean_m": 1.483494296452248,
+    "rmse_std_m": 0.004614059246299312,
+    "rmse_min_m": 1.479654339617371,
+    "rmse_max_m": 1.4905039028026472
+  }
+]

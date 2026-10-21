@@ -1,0 +1,15 @@
+Linux-7.0.0-38-generic-x86_64-with-glibc2.39
+Python 3.12.3
+NumPy 1.26.4
+Matplotlib 3.6.3
+pytest 7.4.4
+WebSockets 14.2
+cmake 3.28.3-1build7
+g++ 4:13.2.0-7ubuntu1
+python3-colcon-core 0.21.3+upstream-1
+ros-jazzy-rclcpp 28.1.22-1noble.20260911.105434
+ros-jazzy-rclpy 7.1.12-1noble.20260912.162354
+ros-jazzy-rmw-fastrtps-cpp 8.4.4-1noble.20260911.100940
+ros-jazzy-robot-state-publisher 3.3.4-1noble.20260915.184559
+ros-jazzy-rviz2 14.1.24-1noble.20260915.204213
+7a6ceec4ea84469f15cf15807a747e9efe57e369c384fa86e022b3bea679b79b  /tmp/amr-websockets.whl

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20261020-1756-Experimental"
+	Name="youseef95-GF65-Thin-9SD"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.3.0"
+	OSName="Linux"
+	Hostname="youseef95-GF65-Thin-9SD"
+	OSRelease="7.0.0-38-generic"
+	OSVersion="#38~24.04.4-Ubuntu SMP PREEMPT_DYNAMIC Mon Sep 14 16:37:11 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="15823"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4061.26"
+	>
+	<Testing>
+		<StartDateTime>Oct 20 20:56 EEST</StartDateTime>
+		<StartTestTime>1792518975</StartTestTime>
+		<TestList>
+			<Test>./python_core</Test>
+			<Test>./simulation_faults</Test>
+			<Test>./simulation_assets</Test>
+			<Test>./cpp_python_parity</Test>
+			<Test>./cpp_ros_smoke</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>python_core</Name>
+			<Path>.</Path>
+			<FullName>./python_core</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/python_core.xunit.xml" "--package-name" "ros2_amr_nmpc_telemetry" "--output-file" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/python_core.txt" "--env" "OPENBLAS_NUM_THREADS=1" "--append-env" "PYTHONPATH=/home/youseef95/Documents/ros2_amr_nmpc_telemetry" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_core.py" "-o" "cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/python_core/.cache" "--junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/python_core.xunit.xml" "--junit-prefix=ros2_amr_nmpc_telemetry"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.13507</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/python_core.xunit.xml" "--package-name" "ros2_amr_nmpc_telemetry" "--output-file" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/python_core.txt" "--env" "OPENBLAS_NUM_THREADS=1" "--append-env" "PYTHONPATH=/home/youseef95/Documents/ros2_amr_nmpc_telemetry" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_core.py" "-o" "cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/python_core/.cache" "--junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/python_core.xunit.xml" "--junit-prefix=ros2_amr_nmpc_telemetry"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: extra environment variables:
+ - OPENBLAS_NUM_THREADS=1
+-- run_test.py: extra environment variables to append:
+ - PYTHONPATH+=/home/youseef95/Documents/ros2_amr_nmpc_telemetry
+-- run_test.py: invoking following command in '/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry':
+ - /usr/bin/python3 -u -m pytest /home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_core.py -o cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/python_core/.cache --junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/python_core.xunit.xml --junit-prefix=ros2_amr_nmpc_telemetry
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/python_core/.cache
+rootdir: /home/youseef95/Documents/ros2_amr_nmpc_telemetry
+plugins: ament-lint-0.17.5, ament-pep257-0.17.5, ament-copyright-0.17.5, launch-testing-3.4.12, ament-xmllint-0.17.5, ament-flake8-0.17.5, launch-testing-ros-0.26.13, cov-4.1.0, colcon-core-0.21.3
+collected 7 items
+
+../../test/test_core.py .......                                          [100%]
+
+- generated xml file: /home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/python_core.xunit.xml -
+============================== 7 passed in 0.50s ===============================
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/python_core.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>pytest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>simulation_faults</Name>
+			<Path>.</Path>
+			<FullName>./simulation_faults</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_faults.xunit.xml" "--package-name" "ros2_amr_nmpc_telemetry" "--output-file" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_faults.txt" "--env" "OPENBLAS_NUM_THREADS=1" "--append-env" "PYTHONPATH=/home/youseef95/Documents/ros2_amr_nmpc_telemetry" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_simulation.py" "-o" "cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_faults/.cache" "--junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_faults.xunit.xml" "--junit-prefix=ros2_amr_nmpc_telemetry"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.99728</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_faults.xunit.xml" "--package-name" "ros2_amr_nmpc_telemetry" "--output-file" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_faults.txt" "--env" "OPENBLAS_NUM_THREADS=1" "--append-env" "PYTHONPATH=/home/youseef95/Documents/ros2_amr_nmpc_telemetry" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_simulation.py" "-o" "cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_faults/.cache" "--junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_faults.xunit.xml" "--junit-prefix=ros2_amr_nmpc_telemetry"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: extra environment variables:
+ - OPENBLAS_NUM_THREADS=1
+-- run_test.py: extra environment variables to append:
+ - PYTHONPATH+=/home/youseef95/Documents/ros2_amr_nmpc_telemetry
+-- run_test.py: invoking following command in '/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry':
+ - /usr/bin/python3 -u -m pytest /home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_simulation.py -o cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_faults/.cache --junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_faults.xunit.xml --junit-prefix=ros2_amr_nmpc_telemetry
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_faults/.cache
+rootdir: /home/youseef95/Documents/ros2_amr_nmpc_telemetry
+plugins: ament-lint-0.17.5, ament-pep257-0.17.5, ament-copyright-0.17.5, launch-testing-3.4.12, ament-xmllint-0.17.5, ament-flake8-0.17.5, launch-testing-ros-0.26.13, cov-4.1.0, colcon-core-0.21.3
+collected 9 items
+
+../../test/test_simulation.py .........                                  [100%]
+
+- generated xml file: /home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_faults.xunit.xml -
+============================== 9 passed in 1.51s ===============================
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_faults.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>pytest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>simulation_assets</Name>
+			<Path>.</Path>
+			<FullName>./simulation_assets</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_assets.xunit.xml" "--package-name" "ros2_amr_nmpc_telemetry" "--output-file" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_assets.txt" "--append-env" "PYTHONPATH=/home/youseef95/Documents/ros2_amr_nmpc_telemetry" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_assets.py" "-o" "cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_assets/.cache" "--junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_assets.xunit.xml" "--junit-prefix=ros2_amr_nmpc_telemetry"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.569434</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_assets.xunit.xml" "--package-name" "ros2_amr_nmpc_telemetry" "--output-file" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_assets.txt" "--append-env" "PYTHONPATH=/home/youseef95/Documents/ros2_amr_nmpc_telemetry" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_assets.py" "-o" "cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_assets/.cache" "--junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_assets.xunit.xml" "--junit-prefix=ros2_amr_nmpc_telemetry"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: extra environment variables to append:
+ - PYTHONPATH+=/home/youseef95/Documents/ros2_amr_nmpc_telemetry
+-- run_test.py: invoking following command in '/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry':
+ - /usr/bin/python3 -u -m pytest /home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_assets.py -o cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_assets/.cache --junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_assets.xunit.xml --junit-prefix=ros2_amr_nmpc_telemetry
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/simulation_assets/.cache
+rootdir: /home/youseef95/Documents/ros2_amr_nmpc_telemetry
+plugins: ament-lint-0.17.5, ament-pep257-0.17.5, ament-copyright-0.17.5, launch-testing-3.4.12, ament-xmllint-0.17.5, ament-flake8-0.17.5, launch-testing-ros-0.26.13, cov-4.1.0, colcon-core-0.21.3
+collected 2 items
+
+../../test/test_assets.py ..                                             [100%]
+
+- generated xml file: /home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_assets.xunit.xml -
+============================== 2 passed in 0.10s ===============================
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/simulation_assets.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>pytest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>cpp_python_parity</Name>
+			<Path>.</Path>
+			<FullName>./cpp_python_parity</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/cpp_python_parity.xunit.xml" "--package-name" "ros2_amr_nmpc_telemetry" "--output-file" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/cpp_python_parity.txt" "--env" "TRACKER_PROBE=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/tracker_probe" "OPENBLAS_NUM_THREADS=1" "--append-env" "PYTHONPATH=/home/youseef95/Documents/ros2_amr_nmpc_telemetry" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_cpp_parity.py" "-o" "cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/cpp_python_parity/.cache" "--junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/cpp_python_parity.xunit.xml" "--junit-prefix=ros2_amr_nmpc_telemetry"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.674001</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/cpp_python_parity.xunit.xml" "--package-name" "ros2_amr_nmpc_telemetry" "--output-file" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/cpp_python_parity.txt" "--env" "TRACKER_PROBE=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/tracker_probe" "OPENBLAS_NUM_THREADS=1" "--append-env" "PYTHONPATH=/home/youseef95/Documents/ros2_amr_nmpc_telemetry" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_cpp_parity.py" "-o" "cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/cpp_python_parity/.cache" "--junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/cpp_python_parity.xunit.xml" "--junit-prefix=ros2_amr_nmpc_telemetry"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: extra environment variables:
+ - OPENBLAS_NUM_THREADS=1
+ - TRACKER_PROBE=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/tracker_probe
+-- run_test.py: extra environment variables to append:
+ - PYTHONPATH+=/home/youseef95/Documents/ros2_amr_nmpc_telemetry
+-- run_test.py: invoking following command in '/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry':
+ - /usr/bin/python3 -u -m pytest /home/youseef95/Documents/ros2_amr_nmpc_telemetry/test/test_cpp_parity.py -o cache_dir=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/cpp_python_parity/.cache --junit-xml=/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/cpp_python_parity.xunit.xml --junit-prefix=ros2_amr_nmpc_telemetry
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: build/ros2_amr_nmpc_telemetry/ament_cmake_pytest/cpp_python_parity/.cache
+rootdir: /home/youseef95/Documents/ros2_amr_nmpc_telemetry
+plugins: ament-lint-0.17.5, ament-pep257-0.17.5, ament-copyright-0.17.5, launch-testing-3.4.12, ament-xmllint-0.17.5, ament-flake8-0.17.5, launch-testing-ros-0.26.13, cov-4.1.0, colcon-core-0.21.3
+collected 1 item
+
+../../test/test_cpp_parity.py .                                          [100%]
+
+- generated xml file: /home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/cpp_python_parity.xunit.xml -
+============================== 1 passed in 0.21s ===============================
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/test_results/ros2_amr_nmpc_telemetry/cpp_python_parity.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>pytest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>cpp_ros_smoke</Name>
+			<Path>.</Path>
+			<FullName>./cpp_ros_smoke</FullName>
+			<FullCommandLine>/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/cpp_ros_smoke</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>4.11822</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/youseef95/Documents/ros2_amr_nmpc_telemetry/build/ros2_amr_nmpc_telemetry/cpp_ros_smoke</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>ROS_DOMAIN_ID=175
+ROS_LOG_DIR=/tmp/amr-cpp-test-logs
+#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+[NON-XML-CHAR-0x1B][37;1m2026-10-20 20:56:20.286 [NON-XML-CHAR-0x1B][31;1m[[NON-XML-CHAR-0x1B][37;1mTRANSPORT_UDP[NON-XML-CHAR-0x1B][31;1m Error] [NON-XML-CHAR-0x1B][37mError creating socket: Operation not permitted[NON-XML-CHAR-0x1B][34;1m -&gt; Function [NON-XML-CHAR-0x1B][36minit[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][37;1m2026-10-20 20:56:20.286 [NON-XML-CHAR-0x1B][31;1m[[NON-XML-CHAR-0x1B][37;1mRTPS_PARTICIPANT[NON-XML-CHAR-0x1B][31;1m Error] [NON-XML-CHAR-0x1B][37mUser transport failed to register.[NON-XML-CHAR-0x1B][34;1m -&gt; Function [NON-XML-CHAR-0x1B][36mRTPSParticipantImpl[NON-XML-CHAR-0x1B][m
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+[INFO] [1792518980.303251694] [adaptive_controller_cpp_node]: C++17 controller requested rate 100.0 Hz
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+getifaddrs: Operation not permitted
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Oct 20 20:56 EEST</EndDateTime>
+		<EndTestTime>1792518984</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

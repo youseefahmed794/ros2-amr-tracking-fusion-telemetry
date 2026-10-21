@@ -1,0 +1,8 @@
+{
+  "scenario": "odom_delay",
+  "passed": true,
+  "truth_samples": 1537,
+  "state_samples": 722,
+  "command_samples": 1845,
+  "fault_window_peak_speed_m_s": 0.0010219974754981848
+}

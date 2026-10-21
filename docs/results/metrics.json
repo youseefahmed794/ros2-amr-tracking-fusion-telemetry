@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "duration_sec": 30.0,
+  "dt_sec": 0.02,
+  "tracking_rmse_m": 0.08126584543148001,
+  "max_tracking_error_m": 0.2540113994556417,
+  "localization_rmse_m": 0.032602234329343706,
+  "peak_linear_command_m_s": 1.3839122328352766,
+  "peak_angular_command_rad_s": 1.4999999999999998
+}

@@ -1,0 +1,8 @@
+{
+  "scenario": "odom_dropout",
+  "passed": true,
+  "truth_samples": 1801,
+  "state_samples": 722,
+  "command_samples": 1841,
+  "fault_window_peak_speed_m_s": 0.0011153052847003371
+}

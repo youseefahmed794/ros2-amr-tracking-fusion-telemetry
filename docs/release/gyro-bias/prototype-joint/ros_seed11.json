@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "duration_sec": 240,
+  "seed": 11,
+  "controller": "cpp",
+  "scenario": "nominal",
+  "true_tracking_rmse_m": 0.20519849556490974,
+  "estimated_tracking_rmse_m": 0.09438185027612739,
+  "last_30s_true_tracking_rmse_m": 0.1863610218666218,
+  "last_30s_estimated_tracking_rmse_m": 0.02735712405613931,
+  "final_bias": {
+    "timestamp_sec": 1792522255.3485081,
+    "bias_rad_s": 0.004702441619196291,
+    "variance_rad2_s2": 4.277360950763204e-06,
+    "enabled": true,
+    "both_sensors_fresh": true
+  },
+  "command_receipt_hz": 100.01401258666742,
+  "truth_samples": 23991,
+  "filtered_samples": 11997,
+  "reference_samples": 23991,
+  "note": "passed covers stream integrity/completion, not an absolute pose guarantee; no tracking threshold hidden in this flag",
+  "alignment": "truth/filtered source stamps linearly interpolated onto controller ROS stamp_sec; <1-tick interpolation approximation"
+}

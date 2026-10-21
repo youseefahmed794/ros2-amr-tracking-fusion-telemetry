@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2_amr_nmpc_telemetry</name>
+  <version>1.2.0</version>
+  <description>Hybrid C++17/Python AMR trajectory tracking, velocity EKF and asynchronous telemetry.</description>
+  <maintainer email="youseefahmed794@gmail.com">Youseef Abdel Tawwab</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>std_msgs</depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-matplotlib</exec_depend>
+  <exec_depend>python3-websockets</exec_depend>
+  <exec_depend>tf2_ros_py</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <test_depend>tf2_msgs</test_depend>
+  <test_depend>ament_cmake_pytest</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <test_depend>python3-yaml</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

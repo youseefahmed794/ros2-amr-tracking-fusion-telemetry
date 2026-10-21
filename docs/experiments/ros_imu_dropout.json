@@ -1,0 +1,8 @@
+{
+  "scenario": "imu_dropout",
+  "passed": true,
+  "truth_samples": 1795,
+  "state_samples": 721,
+  "command_samples": 1839,
+  "fault_window_peak_speed_m_s": 0.0009408123193279709
+}

@@ -1,0 +1,4 @@
+amr_simulator:
+  ros__parameters:
+    seed: 42
+    scenario: nominal

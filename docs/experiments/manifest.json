@@ -1,0 +1,51 @@
+{
+  "seeds": [
+    11,
+    23,
+    42,
+    71,
+    101
+  ],
+  "duration_sec": 30,
+  "fault_window_sec": [
+    12,
+    16
+  ],
+  "controllers": [
+    "lyapunov_integral",
+    "lyapunov_no_integral",
+    "pure_pursuit"
+  ],
+  "scenarios": [
+    "nominal",
+    "load",
+    "slip",
+    "imu_dropout",
+    "odom_dropout",
+    "odom_delay",
+    "nonfinite",
+    "command_dropout"
+  ],
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "wall_time_sec": 45.49149170700002,
+  "trace_columns": [
+    "t",
+    "x",
+    "y",
+    "yaw",
+    "estimated_x",
+    "estimated_y",
+    "estimated_yaw",
+    "reference_x",
+    "reference_y",
+    "v_cmd",
+    "w_cmd",
+    "v_actual",
+    "w_actual",
+    "controller_stopped",
+    "base_watchdog"
+  ],
+  "model": "wheel actuator lag, acceleration bounds, traction, independent command watchdog",
+  "limits": "Python control core at 100 Hz; not Gazebo or measured C++ timing; no absolute pose correction"
+}

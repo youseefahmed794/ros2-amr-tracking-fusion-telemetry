@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.252" timestamp="2026-10-21T18:13:52.401697" hostname="youseef95-GF65-Thin-9SD"><testcase classname="ros2_amr_nmpc_telemetry.test_cpp_parity" name="test_cpp_matches_python_with_saturation_and_reset" time="0.164" /></testsuite></testsuites>
