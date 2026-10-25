@@ -98,6 +98,14 @@ LiDAR integration, SLAM Toolbox, and Nav2 are **planned, not implemented**. Othe
 
 The Dockerfile and GitHub Actions workflow describe intended Jazzy builds and checks. Their presence does not establish a successful image build, container run, clean-system install, or remote workflow execution. See the preparation record for what was actually executed. No GitHub repository or push was performed during local preparation.
 
+## Robotics & Embodied AI Graduate Portfolio Series
+
+This repository is Part 1 of the 5-project robotics and physical AI graduate portfolio by **[Youseef Abdel Tawwab](https://github.com/youseefahmed794)**:
+1. **[ros2-amr-tracking-fusion-telemetry](https://github.com/youseefahmed794/ros2-amr-tracking-fusion-telemetry)**: Nonlinear tracking control, 6-state EKF sensor fusion, and live WebSocket telemetry digital twin.
+2. **[ros2-amr-slam-navigation](https://github.com/youseefahmed794/ros2-amr-slam-navigation)**: 2D LiDAR graph SLAM, Nav2 autonomous navigation, AMCL probabilistic localization, and dynamic obstacle avoidance in Gazebo Harmonic.
+3. **[ros2-manipulation-grasping](https://github.com/youseefahmed794/ros2-manipulation-grasping)**: 6-DOF robotic manipulator, C++17 DLS inverse kinematics, quintic polynomial trajectories, 3D point cloud perception, and antipodal grasp planning.
+4. **[sim2real-robot-rl](https://github.com/youseefahmed794/sim2real-robot-rl)**: Sim-to-Real reinforcement learning (PPO) for dynamic quadruped locomotion across rough terrain with comprehensive domain randomization.
+
 ## License and credits
 
 The existing MIT license and copyright notice are preserved in [LICENSE](LICENSE); see [third-party references and provenance](THIRD_PARTY_NOTICES.md). Maintained by [Youseef Abdel Tawwab](https://github.com/youseefahmed794).
