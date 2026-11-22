@@ -1,0 +1,49 @@
+{
+  "archive_date": "2026-11-22",
+  "files": {
+    "audit_summary.json": {
+      "sha256": "6214da4f59a621593652076c37318851bda439f38b0dc8d58cbc18d849d451e8",
+      "bytes": 7288
+    },
+    "corrected_replay_evidence.json": {
+      "sha256": "1290706d10528725cde87efaedaac845dcdc7c02bd87b4865967a50f94db6192",
+      "bytes": 1688833
+    },
+    "source_snapshot/ros2_amr_nmpc_telemetry/core.py": {
+      "sha256": "77841174775fd7eb91d571fd3331b337db865f6a7af013dacaf9d92dc1a17cd9",
+      "bytes": 4889
+    },
+    "source_snapshot/ros2_amr_nmpc_telemetry/digital_twin.py": {
+      "sha256": "93157fa4b06f9b4d453e3320b53f9db2629b2058cd73fb358ceeb5be02e1caf9",
+      "bytes": 3856
+    },
+    "source_snapshot/ros2_amr_nmpc_telemetry/simulation.py": {
+      "sha256": "084e23127e5c465df4476237398af10c9eba7938632032b8985971d54d2dc0e3",
+      "bytes": 9042
+    },
+    "source_snapshot/ros2_amr_nmpc_telemetry/slip_detector.py": {
+      "sha256": "505799e64e59faffa1657ff28d4987400f1ec5beba83be431411d806c4ade031",
+      "bytes": 3259
+    },
+    "source_snapshot/scripts/digital_twin_replay.py": {
+      "sha256": "73965745ed349b6776cb60a49c58d9fbbd2dcb5d8a518f2562a292cb6c71f33f",
+      "bytes": 5375
+    },
+    "source_snapshot/scripts/slip_compensation_experiment.py": {
+      "sha256": "4e875da3ff58bce144dc64ffa4018488e34071a84edb7ea6899ce46938394dd2",
+      "bytes": 6080
+    },
+    "source_snapshot/scripts/slip_model_mismatch_check.py": {
+      "sha256": "70547e4f5a4b972f6edc66e9f89d8bcde75105a33c0f8f571bd9153c6aa5e103",
+      "bytes": 7042
+    },
+    "traction_ablation_evidence.json": {
+      "sha256": "58373a6c5dd5be18d77f3f8a0b53234846c01ed6035fc15dffcae99ee0c7cf29",
+      "bytes": 15442
+    },
+    "twin_model_mismatch_evidence.json": {
+      "sha256": "378aad5a429c5f517ac13894a663168ac39da097cf7361b8ab908d4d2fa349f4",
+      "bytes": 28231
+    }
+  }
+}

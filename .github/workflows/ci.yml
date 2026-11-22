@@ -41,6 +41,10 @@ jobs:
         shell: bash
         working-directory: ws/src/ros2_amr_nmpc_telemetry
         run: python3 scripts/run_experiments.py --output-dir /tmp/experiments
+      - name: Reproduce offline twin audit against archived seeds
+        shell: bash
+        working-directory: ws/src/ros2_amr_nmpc_telemetry
+        run: python3 scripts/reproduce_twin_audit.py --output-dir /tmp/amr-twin-audit-new --seeds 1201 1202 --verify-archive
       - name: Validate paired multi-minute gyro bias behavior
         shell: bash
         working-directory: ws/src/ros2_amr_nmpc_telemetry
@@ -55,3 +59,4 @@ jobs:
             /tmp/experiments
             /tmp/runtime-validation
             /tmp/gyro-bias-validation
+            /tmp/amr-twin-audit-new

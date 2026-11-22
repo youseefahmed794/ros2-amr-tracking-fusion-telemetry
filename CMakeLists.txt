@@ -46,6 +46,18 @@ if(BUILD_TESTING)
     ENV OPENBLAS_NUM_THREADS=1)
   ament_add_pytest_test(simulation_assets test/test_assets.py
     APPEND_ENV PYTHONPATH=${CMAKE_CURRENT_SOURCE_DIR})
+  ament_add_pytest_test(slip_detector test/test_slip_detector.py
+    APPEND_ENV PYTHONPATH=${CMAKE_CURRENT_SOURCE_DIR}
+    ENV OPENBLAS_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1
+    TIMEOUT 60)
+  ament_add_pytest_test(digital_twin test/test_digital_twin.py
+    APPEND_ENV PYTHONPATH=${CMAKE_CURRENT_SOURCE_DIR}
+    ENV OPENBLAS_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1
+    TIMEOUT 60)
+  ament_add_pytest_test(twin_replay test/test_twin_replay.py
+    APPEND_ENV PYTHONPATH=${CMAKE_CURRENT_SOURCE_DIR}
+    ENV OPENBLAS_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1
+    TIMEOUT 60)
   ament_add_pytest_test(runtime_nodes test/test_runtime_nodes.py
     APPEND_ENV PYTHONPATH=${CMAKE_CURRENT_SOURCE_DIR}
     ENV ROS_DOMAIN_ID=183 ROS_LOG_DIR=/tmp/amr-runtime-node-tests OPENBLAS_NUM_THREADS=1
