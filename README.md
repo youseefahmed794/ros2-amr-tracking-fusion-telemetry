@@ -90,6 +90,18 @@ python3 scripts/standalone_benchmark_colab.py --seed 42 --output-dir /tmp/amr-be
 python3 scripts/long_localization_check.py --duration 240 --seed 42 --output /tmp/amr-long-new.json
 ```
 
+## Offline slip-aware twin audit
+
+The ROS-independent AMRDigitalTwin now rejects duplicate/out-of-order timestamps,
+and its replay aligns truth, EKF pose, and reference to sensor acquisition time.
+It remains an offline simulation mirror; it does not control the robot or replace
+live localization. The [audit and reproduction guide](docs/TWIN_AUDIT.md) includes
+40 full-twin and 40 paired ablation trials, including a yaw-only case where
+applying linear traction correction makes localization worse.
+
+Run scripts/reproduce_twin_audit.py with a fresh output directory to reproduce
+the fixed protocol. New slip/twin/replay tests are registered with CTest.
+
 ## Gazebo and remaining work
 
 The optional Gazebo launch is `ros2 launch ros2_amr_nmpc_telemetry amr_gazebo.launch.py gui:=false rviz:=false`. It uses simulated time, DiffDrive/IMU plugins, a ROS bridge, the C++ controller, and a command gate. A [saved host run](docs/release/host-gazebo-20261020T192814Z/gazebo.json) reports 0.8024 m tracking RMSE over 20.027 simulated seconds, with controller-stall stopping and recovery. This short run is limited evidence: Gazebo tracking remains substantially imperfect, and there is no full Gazebo fault matrix, long-duration validation, or hardware validation. The physical sensor axes, offsets, contacts, and failure behavior still require review.

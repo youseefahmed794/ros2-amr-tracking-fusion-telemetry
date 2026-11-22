@@ -1,0 +1,210 @@
+{
+  "status": "Exploratory simulation evidence; no hardware validation.",
+  "scope": "Offline AMR digital twin localization under four slip models.",
+  "evaluation": {
+    "seeds": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205,
+      1206,
+      1207,
+      1208,
+      1209,
+      1210
+    ],
+    "duration_s": 30.0,
+    "fault_window_s": [
+      12.0,
+      16.0
+    ],
+    "mismatch_trials": 40,
+    "ablation_trials": 40,
+    "limitations": [
+      "One fixed reference trajectory and controller.",
+      "Seeds vary simulator noise; they are not independent trajectories.",
+      "No independently held-out validation claim.",
+      "The twin does not control the robot in these experiments.",
+      "No statistical significance claim is made."
+    ]
+  },
+  "verified_repairs": [
+    "Reject duplicate and out-of-order twin timestamps before state mutation.",
+    "Align replay ground truth, EKF pose, and reference to sensor timestamps."
+  ],
+  "ablation_definition": {
+    "original": "v = self.traction * wheel_v",
+    "ablated": "v = wheel_v",
+    "application": "In memory only; project implementation was unchanged.",
+    "other_computation": "Detector, bias estimation, and yaw integration retained.",
+    "in_memory_source_sha256": "7cc14f870da2493f66093715280c76ba5e50284760b1ee25deaf51e6d782c6ab"
+  },
+  "mismatch_summaries": [
+    {
+      "variant": "matched",
+      "linear_factor_during_fault": 0.65,
+      "yaw_factor_during_fault": 0.65,
+      "seeds": [
+        1201,
+        1202,
+        1203,
+        1204,
+        1205,
+        1206,
+        1207,
+        1208,
+        1209,
+        1210
+      ],
+      "ekf_mean_localization_rmse_m": 1.0498808349711952,
+      "twin_mean_localization_rmse_m": 0.45517627933119564,
+      "ratio_of_mean_rmse_twin_to_ekf": 0.43355042226643176,
+      "mean_paired_rmse_difference_m": -0.5947045556399996,
+      "sample_sd_paired_rmse_difference_m": 0.028828935543924173,
+      "minimum_paired_rmse_difference_m": -0.6399409859863008,
+      "maximum_paired_rmse_difference_m": -0.5428115387386225,
+      "seeds_with_lower_twin_rmse": 10,
+      "seeds_with_higher_twin_rmse": 0,
+      "seeds_with_equal_rmse": 0
+    },
+    {
+      "variant": "linear-only",
+      "linear_factor_during_fault": 0.65,
+      "yaw_factor_during_fault": 1.0,
+      "seeds": [
+        1201,
+        1202,
+        1203,
+        1204,
+        1205,
+        1206,
+        1207,
+        1208,
+        1209,
+        1210
+      ],
+      "ekf_mean_localization_rmse_m": 0.8648583732866744,
+      "twin_mean_localization_rmse_m": 0.8338849084298212,
+      "ratio_of_mean_rmse_twin_to_ekf": 0.9641866624483887,
+      "mean_paired_rmse_difference_m": -0.030973464856853018,
+      "sample_sd_paired_rmse_difference_m": 0.01145783011272319,
+      "minimum_paired_rmse_difference_m": -0.047923172810579784,
+      "maximum_paired_rmse_difference_m": -0.01468308820346964,
+      "seeds_with_lower_twin_rmse": 10,
+      "seeds_with_higher_twin_rmse": 0,
+      "seeds_with_equal_rmse": 0
+    },
+    {
+      "variant": "yaw-only",
+      "linear_factor_during_fault": 1.0,
+      "yaw_factor_during_fault": 0.65,
+      "seeds": [
+        1201,
+        1202,
+        1203,
+        1204,
+        1205,
+        1206,
+        1207,
+        1208,
+        1209,
+        1210
+      ],
+      "ekf_mean_localization_rmse_m": 0.4103230493745523,
+      "twin_mean_localization_rmse_m": 0.4190960298152319,
+      "ratio_of_mean_rmse_twin_to_ekf": 1.0213806669014869,
+      "mean_paired_rmse_difference_m": 0.008772980440679683,
+      "sample_sd_paired_rmse_difference_m": 0.047304915811671185,
+      "minimum_paired_rmse_difference_m": -0.0818779527777907,
+      "maximum_paired_rmse_difference_m": 0.1032936438062016,
+      "seeds_with_lower_twin_rmse": 4,
+      "seeds_with_higher_twin_rmse": 6,
+      "seeds_with_equal_rmse": 0
+    },
+    {
+      "variant": "half-linear",
+      "linear_factor_during_fault": 0.825,
+      "yaw_factor_during_fault": 0.65,
+      "seeds": [
+        1201,
+        1202,
+        1203,
+        1204,
+        1205,
+        1206,
+        1207,
+        1208,
+        1209,
+        1210
+      ],
+      "ekf_mean_localization_rmse_m": 0.6774074297507299,
+      "twin_mean_localization_rmse_m": 0.12521851703705414,
+      "ratio_of_mean_rmse_twin_to_ekf": 0.18484963633057824,
+      "mean_paired_rmse_difference_m": -0.5521889127136757,
+      "sample_sd_paired_rmse_difference_m": 0.03215801117666655,
+      "minimum_paired_rmse_difference_m": -0.6041916930957291,
+      "maximum_paired_rmse_difference_m": -0.500691151074552,
+      "seeds_with_lower_twin_rmse": 10,
+      "seeds_with_higher_twin_rmse": 0,
+      "seeds_with_equal_rmse": 0
+    }
+  ],
+  "ablation_summaries": [
+    {
+      "variant": "matched",
+      "trial_count": 10,
+      "ekf_mean_rmse_m": 1.0498808349711952,
+      "full_twin_mean_rmse_m": 0.45517627933119564,
+      "no_traction_twin_mean_rmse_m": 0.8438648499759912,
+      "mean_paired_difference_full_minus_no_traction_m": -0.3886885706447956,
+      "sample_sd_paired_difference_m": 0.03116269195998612,
+      "seeds_where_traction_application_lowers_rmse": 10,
+      "seeds_where_traction_application_raises_rmse": 0,
+      "seeds_with_equal_rmse": 0
+    },
+    {
+      "variant": "linear-only",
+      "trial_count": 10,
+      "ekf_mean_rmse_m": 0.8648583732866744,
+      "full_twin_mean_rmse_m": 0.8338849084298212,
+      "no_traction_twin_mean_rmse_m": 0.8338849084298212,
+      "mean_paired_difference_full_minus_no_traction_m": 0.0,
+      "sample_sd_paired_difference_m": 0.0,
+      "seeds_where_traction_application_lowers_rmse": 0,
+      "seeds_where_traction_application_raises_rmse": 0,
+      "seeds_with_equal_rmse": 10
+    },
+    {
+      "variant": "yaw-only",
+      "trial_count": 10,
+      "ekf_mean_rmse_m": 0.4103230493745523,
+      "full_twin_mean_rmse_m": 0.4190960298152319,
+      "no_traction_twin_mean_rmse_m": 0.06585950312923737,
+      "mean_paired_difference_full_minus_no_traction_m": 0.3532365266859946,
+      "sample_sd_paired_difference_m": 0.052409619283238056,
+      "seeds_where_traction_application_lowers_rmse": 0,
+      "seeds_where_traction_application_raises_rmse": 10,
+      "seeds_with_equal_rmse": 0
+    },
+    {
+      "variant": "half-linear",
+      "trial_count": 10,
+      "ekf_mean_rmse_m": 0.6774074297507299,
+      "full_twin_mean_rmse_m": 0.12521851703705414,
+      "no_traction_twin_mean_rmse_m": 0.4268855270891261,
+      "mean_paired_difference_full_minus_no_traction_m": -0.3016670100520719,
+      "sample_sd_paired_difference_m": 0.03950377853485101,
+      "seeds_where_traction_application_lowers_rmse": 10,
+      "seeds_where_traction_application_raises_rmse": 0,
+      "seeds_with_equal_rmse": 0
+    }
+  ],
+  "interpretation": [
+    "Traction application lowered localization RMSE in all tested matched and half-linear seeds.",
+    "Traction application produced identical localization RMSE in all tested linear-only seeds.",
+    "Traction application raised localization RMSE in all tested yaw-only seeds.",
+    "The observed linear-only advantage over EKF cannot be attributed to traction application."
+  ],
+  "reproduction_limit": "This archive preserves results and source snapshots. It does not yet include standalone runners for the inline evaluation commands."
+}
